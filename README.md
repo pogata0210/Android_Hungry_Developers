@@ -8,6 +8,10 @@ This project will help you practice the concepts learned in the Concurreny lesso
 - use locks and semaphores to share data safely
 - avoid code which could result in deadlocks
 
+<img src="deadlock_short.gif" width="300">
+
+As you see here, I wasn't excited about the theme presented here (which is a classic computer science principle) so I came up with my own. You are welcome to do so as well. This isn't a assignment on building a UI, I have included the layout file for my app, you'll just want to change the image files and ids.
+
 ## Part Zero - Challenge Description
 
 Imagine a scenario where you have five hungry developers sitting around a round table. On the table between each pair of developers sits a spoon.
