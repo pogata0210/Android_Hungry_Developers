@@ -9,10 +9,93 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="No Activity" />
+
+    <ImageView
+        android:id="@+id/spoon_0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/spoon_3"
+        app:layout_constraintEnd_toStartOf="@+id/spoon_1" />
+
+    <ImageView
+        android:id="@+id/dev_0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev_3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/spoon_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/spoon_4"
+        app:layout_constraintEnd_toStartOf="@+id/spoon_2" />
+
+    <ImageView
+        android:id="@+id/dev_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev_4"
+        app:layout_constraintEnd_toStartOf="@+id/dev_2" />
+
+    <ImageView
+        android:id="@+id/spoon_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev_0"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/dev_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="164dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/dev_3" />
+
+    <ImageView
+        android:id="@+id/spoon_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev_1"
+        app:layout_constraintEnd_toStartOf="@+id/spoon_4" />
+
+    <ImageView
+        android:id="@+id/dev_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/spoon_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev_2"
+        app:layout_constraintEnd_toStartOf="@+id/dev_0" />
+
+    <ImageView
+        android:id="@+id/dev_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
